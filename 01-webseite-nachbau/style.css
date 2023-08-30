@@ -1,0 +1,531 @@
+/********/
+/***** Hier liegt die link von den schriftsart von texte..*****/
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/***um die besere look
+habe ich body(margin: 0;
+    padding: 0;)gemacht*****/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/***mein header hat displa- display-flex,wrap und 
+justify-content: space-around;*****/
+header {
+    background-color: rgba(211, 211, 211, 0.752);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*** die header img class habe ich hier centeriert.*****/
+header .img {
+    align-items: center;
+}
+
+/**** den breit habe ich 90% gemacht für etwas abstand von seiten 
+oder body seiten zu haben.****/
+header .img img {
+    width: 90px;
+    align-items: center;
+}
+
+/**** Divs im header hat den funktion display-flex.****/
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+
+/*** um die untere liene weg zu machen
+ich habe text decoration-none gemacht.*****/
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+/**** hier hat display flex-- wrap.****/
+
+header .media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*** breit und hocher sind gleich.*****/
+
+header .media div {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+/*** hier liegt hintergrund bild von facebook*****/
+/********/
+
+header .media .facebook {
+    background-image: url(fb_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/***ich habe hier als hover ein hintergrund bilt benutzt.*****/
+/****mit der andere farbe aber gleich bild benutzt****/
+
+header .media .facebook:hover {
+    background-image: url(fb_icon_hover.png);
+}
+
+/*** hier liegt hintergrund bild von instagram*****/
+
+header .media .insta {
+    background-image: url(insta_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/***ich habe hier als hover ein hintergrund bilt benutzt.*****/
+/****mit der andere farbe aber gleich bild benutzt****/
+header .media .insta:hover {
+    background-image: url(insta_icon_hover.png);
+}
+
+/*** hier liegt hintergrund bild von youtube.*****/
+header .media .youtube {
+    background-image: url(youtube_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/***ich habe hier als hover ein hintergrund bilt benutzt.**
+/****mit der andere farbe aber gleich bild benutzt****/
+header .media .youtube:hover {
+    background-image: url(youtube_icon_hover.png);
+}
+
+/****** den div eins mit ein schrifart und hintergrund farbe.****/
+main .hintergrund-1 {
+    background-color: rgba(169, 169, 169, 0.725);
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    color: white;
+    border: 3px white groove;
+    padding-top: 200px;
+}
+main .hintergrund-1:hover{
+    background-image: url(main_05.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.65s;
+}
+/***** den farbe von texte und den schriftart habe ich hier gemacht. ***/
+main .hintergrund-1 p {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 300%;
+    text-align: end;
+    align-items: end;
+}
+
+/***** allen h2 überschrifte habe ich hier gleiche
+breit mit schriftart gemacht.*****/
+main h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+}
+
+/***** nur margin in diese div*****/
+main .intro div {
+    margin: 10px;
+}
+
+/***** diese div hat display grid mit 3 spalte
+mit gleich groß-*****/
+main .intro {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/***** ich habe hier den h2 auch grid gemacht,um den
+2 spalt für sich zu haben.*****/
+main .intro h2 {
+    display: grid;
+    grid-column-end: span 3;
+}
+
+/****** den schriftart ist bold und center.****/
+main .intro h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/***** im main bereich habe ich hier alle bilder 
+gleich groß gemacht.*****/
+main img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 10px gray;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+/**** hier display flex mit overflow:hidden gemacht.****/
+main .card .versteckt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+/**** es hat transition im 75 sekonde.****/
+main .card {
+    transition: 0.75s;
+    overflow: hidden;
+}
+
+/**** die div cards habe ich gleich breit und hocher gemacht ****/
+main .card img {
+    width: 100%;
+    height: 100%;
+}
+
+/***** und diese divs hat hover***/
+main .card img:hover {
+    width: 150%;
+    height: 150%;
+}
+
+/********/
+main .story h4 {
+    margin-top: 0px;
+}
+
+/**** nur padding abstand zu haben.****/
+main .so-geht-es-nicht {
+    padding-left: 10px;
+}
+
+/**** Erste habe ich allen p gleich farbe mit gleiche
+schriftart gemacht. ****/
+main div p {
+    color: rgb(130, 129, 129);
+    font-family: 'Poppins', sans-serif;
+}
+
+/*****mein story div hat display--grid mit 2 gleiche spalten.*****/
+main .story {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 150px;
+}
+
+/**********/
+main .story h2 {
+    display: grid;
+    grid-column-end: span 2;
+}
+
+/*****mein jurnal div hat display--grid mit 4 gleiche spalten.*****/
+/**********/
+main .jurnal {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 50px;
+
+}
+
+/**** von links habe ich den (padding-left: 50px;) gemacht****/
+
+main .jurnal img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    box-shadow: none;
+}
+
+/**** ich habe den width 80% gemacht
+um die 80% vo reihe für sich haben.****/
+main .jurnal h4 {
+    width: 80%;
+    text-align: center;
+    color: brown;
+    padding: 10px;
+
+}
+
+/*** die farbe von h4 habe ich braun gemacht.*****/
+
+main h4 {
+    width: 80%;
+    color: brown;
+
+}
+
+/**** den schriftgroß ist bold.****/
+
+main .jurnal h5 {
+    width: 100%;
+    font-weight: bold;
+}
+
+/***** h2 im jurnal div hat display grid, um 4 spalten für sich zu haben.***/
+main .jurnal h2 {
+    display: grid;
+    grid-column-end: span 4;
+
+}
+
+/**** den schriftgroß ist bold.****/
+/********/
+main h5 {
+    width: 100%;
+    color: rgb(79, 29, 29);
+}
+
+/*** dieser div hat hintergrund bild und daruber auch 
+texte mit buttom dazu.*****/
+main .hintergrund-2 {
+    background-image: url(cashmere_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+/**** den button hat hover mit andere farbe,wenn wir darauf klicken.******/
+main .hintergrund-2 button:hover {
+    background-color: black;
+    color: white;
+    width: 50px;
+}
+
+/***** diese div hat display flex,wrap und mittig.*****/
+main .stores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+/**** den divs im stores's div hat 5px abstände von einander.****/
+main .stores div {
+    margin: 5px;
+
+}
+
+/***** ich habe hier breit 100% gemacht,
+um ganzen reihe für sich zu haben.*****/
+main .stores h2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/***** mein div hat hintergrund foto mit overflow:hidden.*****/
+main .stores .div-1 {
+    width: 80%;
+    height: 300px;
+    background-image: url(store_women.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border: 0, 5px #2f2e2a solid;
+    overflow: hidden;
+
+}
+
+/**** hie hat es flex--flex-wrap funktion.***/
+main .stores .div-1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/** ich habe hier den div-1 hover gegeben***/
+
+main .stores .div-1:hover {
+    background-size: 130%;
+}
+
+/** ich habe hier die buttons hover gegeben***/
+main .stores .div-1 button:hover,
+main .stores .div-3 button:hover,
+main .stores .div-4 button:hover {
+    background-color: white;
+    color: black;
+    width: 110px;
+}
+
+/***** hier ist den button farbe ***/
+main .stores .div-1 button {
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: Black;
+    color: white;
+}
+
+/**** es liegt in diese div ein
+ hintergrund bild mit breit 35%.****/
+main .stores .div-3 {
+    background-image: url(store_men.jpg);
+    width: 35%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-size: cover;
+    height: 250px;
+}
+
+/*** ich habe hier hover mit andere hintergrund breit gemacht.*****/
+main .stores .div-3:hover {
+    background-size: 130%;
+}
+
+/**** den button farbe habe ich geändert.****/
+main .stores .div-3 button {
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: Black;
+    color: white;
+
+}
+
+
+/**** es liegt in diese div ein
+ hintergrund bild mit breit 35%.****/
+main .stores .div-4 {
+    background-image: url(store_kids.jpg);
+    color: white;
+    width: 45%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-size: cover;
+    height: 250px;
+}
+
+/*** ich habe hier hover mit andere hintergrund breit gemacht.*****/
+/***** ***/
+main .stores .div-4:hover {
+    background-size: 130%;
+}
+
+/**** den button farbe habe ich geändert.****/
+/********/
+main .stores .div-4 button {
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: Black;
+    color: white;
+}
+
+/**** es hat abstand****/
+main .stores img {
+    margin: 10px;
+}
+
+/**** den div stores hat img,da ich hover 
+mit den breit 120% gemacht.****/
+main .stores img:hover {
+    background-size: 120%;
+    box-shadow: 0px 0px 20px gray;
+
+}
+
+/***** Hier habe ich google map generatur benutzt,*****/
+/*****mein img div hat display--grid mit 2 gleiche spalten.*****/
+
+main .img {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/**** die 2 div habe ich auch gleich groß wie die
+ggogle mape große gemacht.****/
+main .img .img-2 {
+    width: 100%;
+    height: 90%;
+    background-image: url(store_map.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/***** mein footer hat funktion flex---flex-wrap,wrap*****/
+footer {
+    background-color: rgba(211, 211, 211, 0.752);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/** mit word-spacing habe ich die worter von 
+einander seperat gemacht.**/
+footer div p {
+    word-spacing: 10px;
+}
+
+/**** es abstand 10px.****/
+footer div img {
+    margin: 10px;
+}

@@ -1,0 +1,235 @@
+
+
+@media screen and (min-width:800px;){
+    /**********/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(211, 211, 211, 0.752);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header .img{
+    align-items: center;
+}
+header .img img {
+    width: 90px;
+    align-items: center;
+    
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+header .media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+header .media div {
+    width: 20px;
+    padding: 10px;
+}
+
+
+/**********/
+main .hintergrund-1 {
+    background-color: rgba(169, 169, 169, 0.725);
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    color: white;
+    border: 3px white groove;
+    font-family: 'Great Vibes';
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/**********/
+main h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+
+}
+
+/**********/
+main .intro {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/**********/
+main .intro h2 {
+    display: grid;
+    grid-column-end: span 3;
+}
+
+/**********/
+main img {
+    width: 250px;
+    height: 250px;
+}
+main img:hover {
+    width: 260px;
+    height: 260px;
+}
+/**********/
+main .story {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 150px;
+}
+
+/**********/
+main .story h2 {
+    display: grid;
+    grid-column-end: span 2;
+}
+
+/**********/
+main .jurnal {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 50px;
+   
+}
+
+main .jurnal img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+main .jurnal h4 {
+    width: 80%;
+    text-align: center;
+    color: brown;
+    padding: 10px;
+
+}
+
+main .jurnal h5 {
+    width: 100%;
+    font-weight: bold;
+}
+
+main .jurnal h2 {
+    display: grid;
+    grid-column-end: span 4;
+    
+}
+
+main h5 {
+    width: 100%;
+    color: rgb(79, 29, 29);
+}
+
+main .hintergrund-2 {
+    background-image: url(cashmere_bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+/**********/
+main .hintergrund-2 button:hover {
+    background-color: black;
+    color: white;
+    width: 50px;
+}
+
+/**********/
+main .stores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+/**********/
+main .stores h2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/**********/
+main .stores .div-1 img {
+    width: 100%;
+}
+
+main .stores img {
+    padding: 10px;
+    margin: 10px;
+}
+
+/**********/
+/**********/
+main .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+main .img div {
+    margin: 10px;
+}
+
+/**********/
+footer {
+    background-color: rgba(211, 211, 211, 0.752);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer div p {
+    word-spacing: 10px;
+}
+
+footer div img {
+    margin: 10px;
+}
+
+/**********/
+}
